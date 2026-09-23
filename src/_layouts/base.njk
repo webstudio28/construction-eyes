@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="{{ site.brand.language | default('bg') }}">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% set pageTitle = title or site.seo.defaultTitle %}
+  <title>{{ pageTitle }}{% if title %} | {{ site.brand.name }}{% endif %}</title>
+  <meta name="description" content="{{ description or site.seo.defaultDescription }}" />
+  <link rel="canonical" href="{{ site.seo.siteUrl }}{{ page.url | url }}" />
+  <link rel="icon" href="{{ '/favicon.png' | url }}" type="image/png" />
+  <link rel="apple-touch-icon" href="{{ '/favicon.png' | url }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:opsz,wght@8..144,400;8..144,500;8..144,600&family=Sofia+Sans+Condensed:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | url }}" />
+  {% if pageStyles %}<link rel="stylesheet" href="{{ pageStyles | url }}" />{% endif %}
+  {% if pageImage %}
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="bg_BG" />
+  <meta property="og:title" content="{{ pageTitle }} | {{ site.brand.name }}" />
+  <meta property="og:description" content="{{ description or site.seo.defaultDescription }}" />
+  <meta property="og:url" content="{{ site.seo.siteUrl }}{{ page.url | url }}" />
+  <meta property="og:image" content="{{ site.seo.siteUrl }}{{ pageImage | url }}" />
+  <meta name="twitter:card" content="summary_large_image" />
+  {% endif %}
+</head>
+<body class="{% if bodyClass %}{{ bodyClass }}{% endif %}" data-transparent-header="true">
+  {% set transparentHeader = true %}
+  {% include "header.njk" %}
+  <main>
+    {{ content | safe }}
+  </main>
+  {% include "footer.njk" %}
+  {% include "modal.njk" %}
+  <script src="{{ '/assets/js/main.js' | url }}" defer></script>
+</body>
+</html>

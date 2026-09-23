@@ -1,0 +1,83 @@
+<header id="header" class="fixed inset-x-0 top-0 z-[100] transition duration-300 {% if transparentHeader %}text-white{% else %}bg-white/95 text-ink shadow-[0_5px_22px_rgba(36,51,43,0.08)] backdrop-blur-md scrolled{% endif %}">
+  <div class="container-site flex min-h-[76px] items-center justify-between gap-7">
+    <a class="flex shrink-0 items-center no-underline" href="{{ '/' | url }}" aria-label="{{ site.brand.name }} – начало">
+      <img
+        class="h-12 w-auto sm:h-14"
+        src="{{ '/assets/images/logo.png' | url }}"
+        alt="{{ site.brand.name }}"
+        width="168"
+        height="56"
+        decoding="async"
+      />
+    </a>
+
+    <nav class="ml-auto hidden items-center gap-5 lg:flex" aria-label="Основна навигация">
+      {% for item in site.nav.header %}
+        {% if item.children and item.children.length %}
+          <div class="group relative">
+            <a class="inline-flex items-center gap-1 py-7 font-display text-[13px] font-bold uppercase tracking-[0.07em] no-underline transition {% if transparentHeader %}text-white/85 group-hover:text-white{% else %}text-ink hover:text-ink-muted{% endif %}" href="{{ item.url | url }}">
+              {{ item.label }}
+              <svg class="text-brand transition group-hover:rotate-180" width="12" height="12" viewBox="0 0 24 24" fill="none"><path d="m6 9 6 6 6-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+            </a>
+            <div class="nav-dropdown invisible absolute left-1/2 top-16 z-20 max-h-[70vh] w-72 -translate-x-1/2 -translate-y-1.5 overflow-y-auto rounded-xl border border-ink/10 bg-white p-2 opacity-0 shadow-lift transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+              {% for child in item.children %}
+                <a class="flex items-center gap-3 rounded-lg px-2 py-2 text-sm text-ink-muted no-underline transition hover:bg-brand-soft hover:text-brand" href="{{ child.url | url }}">
+                  {% if child.image %}
+                    <img class="h-10 w-10 shrink-0 rounded-md object-cover bg-brand-mist" src="{{ child.image | url }}" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                  {% endif %}
+                  <span>{{ child.label }}</span>
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        {% else %}
+          <a class="py-7 font-display text-[13px] font-bold uppercase tracking-[0.07em] no-underline transition {% if transparentHeader %}text-white/85 hover:text-white{% else %}text-ink hover:text-ink-muted{% endif %}" href="{{ item.url | url }}">{{ item.label }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+
+    <button class="btn btn-primary hidden px-4 py-2.5 text-[13px] xl:inline-flex open-inquiry" type="button">Заяви оферта</button>
+    <button class="mobile-toggle rounded-lg p-2 {% if transparentHeader %}text-white{% else %}text-ink{% endif %} lg:hidden" id="menuOpen" type="button" aria-label="Отвори меню">
+      <svg width="27" height="27" viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<aside class="pointer-events-none invisible fixed inset-0 z-[110]" id="mobileMenu" aria-hidden="true">
+  <div class="absolute inset-0 bg-ink/65 opacity-0 transition" data-close-menu></div>
+  <div class="absolute inset-y-0 right-0 w-[min(88vw,390px)] translate-x-full overflow-auto bg-white p-6 transition duration-300">
+    <div class="mb-8 flex items-center justify-between">
+      <a class="flex items-center no-underline" href="{{ '/' | url }}" aria-label="{{ site.brand.name }} – начало">
+        <img
+          class="h-11 w-auto"
+          src="{{ '/assets/images/logo.png' | url }}"
+          alt="{{ site.brand.name }}"
+          width="132"
+          height="44"
+          decoding="async"
+        />
+      </a>
+      <button class="grid h-10 w-10 place-items-center rounded-lg bg-brand-mist text-ink" type="button" data-close-menu aria-label="Затвори меню">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="m5 5 14 14M19 5 5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <nav class="flex flex-col">
+      {% for item in site.nav.header %}
+        <a class="border-b border-ink/10 py-3.5 font-display text-lg font-extrabold uppercase text-ink no-underline" href="{{ item.url | url }}">{{ item.label }}</a>
+        {% if item.children and item.children.length %}
+          <div class="space-y-1 border-b border-ink/10 py-2">
+            {% for child in item.children %}
+              <a class="flex items-center gap-3 rounded-lg px-2 py-2 text-sm text-ink-muted no-underline hover:bg-brand-mist hover:text-brand" href="{{ child.url | url }}">
+                {% if child.image %}
+                  <img class="h-10 w-10 shrink-0 rounded-md object-cover bg-brand-mist" src="{{ child.image | url }}" alt="" width="40" height="40" loading="lazy" decoding="async" />
+                {% endif %}
+                <span>{{ child.label }}</span>
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </nav>
+    <button class="btn btn-primary mt-6 w-full open-inquiry" type="button">Заяви оферта</button>
+  </div>
+</aside>

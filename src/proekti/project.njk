@@ -1,0 +1,216 @@
+---
+layout: base.njk
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "/proekti/{{ project.slug }}/"
+eleventyComputed:
+  title: "{{ project.title }}"
+  description: "{{ project.shortDescription }}"
+---
+{% from "macros/page-banner.njk" import pageBanner %}
+{% from "macros/breadcrumbs.njk" import breadcrumbs %}
+
+{% call pageBanner() %}
+  <div class="grid items-end gap-8 lg:grid-cols-2">
+    <div>
+      <div class="text-sm font-bold uppercase tracking-[0.14em] text-brand">{{ project.location }} · {{ project.objectType }}</div>
+      <h1 class="mt-3 font-display text-[clamp(2.25rem,4.5vw,3.5rem)] font-black leading-none">{{ project.title }}</h1>
+      <p class="mt-4 max-w-xl text-lg leading-relaxed text-white/70">{{ project.shortDescription }}</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <button class="btn btn-primary open-inquiry" type="button">Заяви подобен проект</button>
+      </div>
+    </div>
+    {% if project.images and project.images.length %}
+      <div class="relative overflow-hidden rounded-2xl border border-white/10 shadow-lift">
+        <img class="aspect-[4/3] w-full object-cover" src="{{ project.images[0] | url }}" alt="{{ project.title }}" />
+        <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/35 to-transparent" aria-hidden="true"></div>
+      </div>
+    {% endif %}
+  </div>
+{% endcall %}
+
+{{ breadcrumbs([
+  { label: "Начало", url: "/" },
+  { label: "Проекти", url: "/proekti/" },
+  { label: project.title }
+]) }}
+
+{% if project.images and project.images.length %}
+<section class="section-pad bg-white">
+  <div class="container-site">
+    <div class="mb-10 max-w-2xl reveal md:mb-12">
+      <div class="eyebrow">Галерия</div>
+      <h2 class="section-title">Снимки от обекта</h2>
+      <p class="section-copy">Реални кадри от изпълнението и крайния резултат.</p>
+    </div>
+    <div class="h-scroll reveal md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-4">
+      {% for img in project.images %}
+        <figure class="overflow-hidden rounded-xl bg-brand-mist shadow-card">
+          <img
+            class="aspect-[4/3] w-full object-cover transition duration-500 hover:scale-[1.03]"
+            src="{{ img | url }}"
+            alt="{{ project.title }} — снимка {{ loop.index }}"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if project.videos and project.videos.length %}
+<section class="section-pad bg-brand-mist">
+  <div class="container-site">
+    <div class="mb-10 max-w-2xl reveal md:mb-12">
+      <div class="eyebrow">Видео</div>
+      <h2 class="section-title">Видеа от обекта</h2>
+      <p class="section-copy">Гледайте как протича работата и какъв е крайният резултат.</p>
+    </div>
+    <div class="h-scroll reveal md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-4">
+      {% for video in project.videos %}
+        {% set embedUrl = video.url | youtubeEmbed %}
+        {% set ytId = video.url | youtubeId %}
+        <figure class="overflow-hidden rounded-xl bg-white shadow-card">
+          <div class="relative aspect-video overflow-hidden bg-brand-deeper">
+            <button
+              type="button"
+              class="group absolute inset-0 grid place-items-center"
+              data-video-embed="{{ embedUrl }}?autoplay=1&rel=0"
+              data-video-title="{{ video.title or project.title }}"
+              aria-label="Пусни видео{% if video.title %}: {{ video.title }}{% endif %}"
+            >
+              {% if ytId %}
+                <img
+                  class="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.03]"
+                  src="https://i.ytimg.com/vi/{{ ytId }}/hqdefault.jpg"
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
+              {% endif %}
+              <span class="absolute inset-0 bg-gradient-to-t from-black/45 via-black/15 to-black/10 transition duration-300 group-hover:from-black/50" aria-hidden="true"></span>
+              <span class="relative grid h-14 w-14 place-items-center rounded-full bg-white text-brand shadow-lift ring-1 ring-black/5 transition duration-300 group-hover:scale-110 group-hover:bg-brand group-hover:text-white" aria-hidden="true">
+                <svg class="ml-0.5 h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11-6.86a1 1 0 0 0 0-1.72l-11-6.86a1 1 0 0 0-1.5.86Z" />
+                </svg>
+              </span>
+            </button>
+          </div>
+          {% if video.title %}
+            <figcaption class="px-4 py-3">
+              <h3 class="font-display text-base font-extrabold text-ink">{{ video.title }}</h3>
+            </figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="relative section-pad overflow-hidden bg-white">
+  <div class="pointer-events-none absolute -right-20 top-10 h-64 w-64 rounded-full bg-brand/5 blur-3xl" aria-hidden="true"></div>
+  <div class="container-site relative reveal">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="hidden w-px bg-gradient-to-b from-brand via-brand/40 to-transparent lg:block" aria-hidden="true"></div>
+      <div>
+        <div class="eyebrow">Описание</div>
+        <h2 class="section-title">За проекта</h2>
+        <p class="border-l-4 border-brand pl-6 text-[17px] leading-relaxed text-ink-muted md:text-lg md:leading-8">{{ project.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad bg-brand-mist">
+  <div class="container-site">
+    <div class="mb-12 max-w-2xl reveal">
+      <div class="eyebrow">Детайли</div>
+      <h2 class="section-title">Какво свършихме</h2>
+      <p class="section-copy">Заданието, материалите и резултатът — накратко.</p>
+    </div>
+    <div class="grid gap-px overflow-hidden rounded-2xl border border-ink/10 bg-ink/10 md:grid-cols-2">
+      <div class="reveal bg-white p-8 md:p-10">
+        <div class="mb-4 flex items-center gap-3">
+          <span class="h-8 w-1 rounded-full bg-brand" aria-hidden="true"></span>
+          <h3 class="font-display text-xl font-extrabold md:text-2xl">Задание</h3>
+        </div>
+        <p class="text-[15px] leading-relaxed text-ink-muted">{{ project.assignment }}</p>
+      </div>
+      <div class="reveal bg-white p-8 md:p-10">
+        <div class="mb-4 flex items-center gap-3">
+          <span class="h-8 w-1 rounded-full bg-brand" aria-hidden="true"></span>
+          <h3 class="font-display text-xl font-extrabold md:text-2xl">Изпълнени услуги</h3>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          {% for s in project.servicesDone %}
+            <span class="rounded-lg border border-ink/10 bg-brand-mist px-3.5 py-2 font-display text-sm font-bold text-ink">{{ s }}</span>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="reveal bg-white p-8 md:p-10">
+        <div class="mb-4 flex items-center gap-3">
+          <span class="h-8 w-1 rounded-full bg-brand" aria-hidden="true"></span>
+          <h3 class="font-display text-xl font-extrabold md:text-2xl">Монтирано</h3>
+        </div>
+        <p class="text-[15px] leading-relaxed text-ink-muted">{{ project.installed }}</p>
+      </div>
+      <div class="reveal bg-white p-8 md:p-10">
+        <div class="mb-4 flex items-center gap-3">
+          <span class="h-8 w-1 rounded-full bg-brand" aria-hidden="true"></span>
+          <h3 class="font-display text-xl font-extrabold md:text-2xl">Материали</h3>
+        </div>
+        <p class="text-[15px] leading-relaxed text-ink-muted">{{ project.materials }}</p>
+      </div>
+      <div class="reveal bg-white p-8 md:p-10">
+        <div class="mb-4 flex items-center gap-3">
+          <span class="h-8 w-1 rounded-full bg-brand" aria-hidden="true"></span>
+          <h3 class="font-display text-xl font-extrabold md:text-2xl">Трудности</h3>
+        </div>
+        <p class="text-[15px] leading-relaxed text-ink-muted">{{ project.challenges }}</p>
+      </div>
+      <div class="reveal relative overflow-hidden bg-brand-soft p-8 md:p-10">
+        <div class="mb-4 flex items-center gap-3">
+          <span class="h-8 w-1 rounded-full bg-brand" aria-hidden="true"></span>
+          <h3 class="font-display text-xl font-extrabold md:text-2xl">Резултат</h3>
+        </div>
+        <p class="text-[15px] leading-relaxed text-ink-muted">{{ project.result }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if project.testimonial %}
+<section class="relative section-pad overflow-hidden bg-white">
+  <div class="pointer-events-none absolute -left-20 bottom-0 h-64 w-64 rounded-full bg-brand/5 blur-3xl" aria-hidden="true"></div>
+  <div class="container-site relative">
+    <div class="reveal grid items-stretch gap-10 lg:grid-cols-[minmax(0,1fr)_min(100%,17.5rem)] lg:gap-14">
+      <figure class="min-w-0">
+        <div class="eyebrow">Отзив</div>
+        <blockquote class="mt-6 border-l-4 border-brand pl-6 md:pl-8">
+          <p class="font-display text-[clamp(1.35rem,2.5vw,1.85rem)] font-bold leading-snug tracking-wide text-ink">
+            „{{ project.testimonial }}“
+          </p>
+        </blockquote>
+        <figcaption class="mt-6 flex flex-wrap items-center gap-3 pl-6 md:pl-8">
+          <span class="h-px w-8 bg-brand" aria-hidden="true"></span>
+          <span class="text-sm font-bold uppercase tracking-[0.14em] text-ink-muted">{{ project.location }} · {{ project.objectType }}</span>
+        </figcaption>
+      </figure>
+      <aside class="flex flex-col justify-between gap-6 border-t border-ink/10 pt-8 lg:border-l lg:border-t-0 lg:pl-10 lg:pt-0">
+        <div>
+          <p class="font-display text-lg font-extrabold text-ink">Искате подобен резултат?</p>
+          <p class="mt-2 text-[15px] leading-relaxed text-ink-muted">Заявете оферта — ще предложим решение за вашия обект.</p>
+        </div>
+        <button class="btn btn-primary open-inquiry" type="button">Заяви подобен проект</button>
+      </aside>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% include "sections/home-cta.njk" %}

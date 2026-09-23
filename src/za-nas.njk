@@ -1,0 +1,68 @@
+---
+layout: base.njk
+permalink: /za-nas/
+title: За нас
+description: Запознайте се с Construction Eyes — наем на скелета, монтаж, демонтаж и логистика за строежи и ремонти в България.
+---
+{% from "macros/page-banner.njk" import pageBanner %}
+{% from "macros/breadcrumbs.njk" import breadcrumbs %}
+
+{% call pageBanner() %}
+  <div class="eyebrow text-brand before:bg-brand">Construction Eyes</div>
+  <h1 class="mt-3 max-w-3xl font-display text-[clamp(2.5rem,5vw,3.75rem)] font-black leading-none">Кои сме ние</h1>
+  <p class="mt-4 max-w-2xl text-lg leading-relaxed text-white/70">Осигуряваме сигурно скеле на място — с ясна оферта, професионален монтаж и логистика, на която можете да разчитате.</p>
+{% endcall %}
+
+{{ breadcrumbs([
+  { label: "Начало", url: "/" },
+  { label: "За нас" }
+]) }}
+
+<section class="section-pad bg-white">
+  <div class="container-site grid gap-10 lg:grid-cols-2 lg:gap-14">
+    <div class="reveal">
+      <div class="eyebrow">История</div>
+      <h2 class="section-title">Скеле, което държи темпото на обекта</h2>
+      <p class="mb-4 text-[17px] leading-relaxed text-ink-muted">Construction Eyes е компания за наем на скелета с фокус върху сигурността, сроковете и ясната комуникация. Работим със строителни фирми, ремонтни екипи и инвеститори — от фасадни ремонти до промишлени и реставрационни обекти.</p>
+      <p class="text-[17px] leading-relaxed text-ink-muted">Целта ни е проста: подходяща конфигурация, стабилен монтаж и доставка навреме — за да може вашият екип да работи спокойно на височина.</p>
+    </div>
+    <div class="grid gap-4 sm:grid-cols-2 reveal">
+      {% set facts = [
+        { "n": "50 000+", "l": "m² скеле в оборот" },
+        { "n": "Монтаж", "l": "екип на терен" },
+        { "n": "България", "l": "транспорт и покритие" },
+        { "n": "2018", "l": "година на основаване" }
+      ] %}
+      {% for f in facts %}
+        <div class="rounded-xl border border-ink/10 bg-brand-mist p-6">
+          <div class="font-display text-3xl font-black text-brand">{{ f.n }}</div>
+          <div class="mt-1 text-sm text-ink-muted">{{ f.l }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-pad bg-brand-mist">
+  <div class="container-site">
+    <div class="mb-10 reveal">
+      <div class="eyebrow">Силни страни</div>
+      <h2 class="section-title">В какво сме най-добри</h2>
+    </div>
+    <div class="grid gap-4 md:grid-cols-3">
+      {% set strengths = [
+        { "t": "Сигурен монтаж", "d": "Укрепване, проверка и дисциплина на площадката — защото скелето трябва да държи." },
+        { "t": "Ясна оферта", "d": "Изчисляваме реалните m², срока и логистиката, без излишни обещания." },
+        { "t": "Логистика навреме", "d": "Доставка, разтоварване и извозване според графика на вашия обект." }
+      ] %}
+      {% for s in strengths %}
+        <article class="card reveal p-6">
+          <h3 class="mb-2 font-display text-xl font-extrabold">{{ s.t }}</h3>
+          <p class="m-0 text-ink-muted leading-relaxed">{{ s.d }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "sections/home-cta.njk" %}

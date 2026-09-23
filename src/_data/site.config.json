@@ -1,0 +1,42 @@
+{
+  "brand": {
+    "name": "Construction Eyes",
+    "shortName": "CE",
+    "tagline": "Скелета под наем · Монтаж · Логистика",
+    "language": "bg",
+    "foundedYear": 2018,
+    "slogan": "Сигурно скеле. Навреме. На място."
+  },
+  "seo": {
+    "siteUrl": "https://constructioneyes.bg",
+    "defaultTitle": "Construction Eyes | Скелета под наем",
+    "defaultDescription": "Скелета под наем, професионален монтаж и демонтаж, транспорт и логистика в цяла България. Фасадно, модулно, мобилно и обемно скеле за строежи и ремонти."
+  },
+  "contact": {
+    "phone": "0887 456 320",
+    "phoneHref": "tel:+359887456320",
+    "email": "info@constructioneyes.bg",
+    "address": "София и Софийска област · покритие в цяла България",
+    "hours": "Пон–Съб 08:00–18:00",
+    "facebook": "https://www.facebook.com/profile.php?id=61568828545981&locale=bg_BG",
+    "tiktok": "#",
+    "viber": "#",
+    "whatsapp": "#"
+  },
+  "colors": {
+    "brand": "#3FB449",
+    "brandDark": "#2E8F37",
+    "ink": "#121516",
+    "paper": "#F3F8F4"
+  },
+  "nav": {
+    "header": [
+      { "label": "Начало", "url": "/" },
+      { "label": "Скелета под наем", "url": "/uslugi/", "childrenFrom": "services" },
+      { "label": "Проекти", "url": "/proekti/" },
+      { "label": "Видеа", "url": "/videa/" },
+      { "label": "За нас", "url": "/za-nas/" },
+      { "label": "Контакти", "url": "/kontakti/" }
+    ]
+  }
+}
