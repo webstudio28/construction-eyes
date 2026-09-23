@@ -44,5 +44,5 @@ jobs:
           username: ${{ secrets.CPANEL_USER }}
           password: ${{ secrets.CPANEL_PASS }}
           local-dir: _site/
-          server-dir: ${{ secrets.CPANEL_SERVER_DIR || 'dmd-comfort/' }}
+          server-dir: ${{ secrets.CPANEL_SERVER_DIR || 'construction-eyes/' }}
           dangerous-clean-slate: false
