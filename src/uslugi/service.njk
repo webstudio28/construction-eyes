@@ -13,7 +13,7 @@ eleventyComputed:
 {% from "macros/include-icon.njk" import includeIcon %}
 {% from "macros/breadcrumbs.njk" import breadcrumbs %}
 
-{% call pageBanner() %}
+{% call pageBanner(bgImage="/assets/images/services-bg.png") %}
   <div class="grid items-end gap-8 lg:grid-cols-2">
     <div>
       <h1 class="font-display text-[clamp(2.25rem,4.5vw,3.5rem)] font-black leading-none">{{ service.title }}</h1>

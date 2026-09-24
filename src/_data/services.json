@@ -58,7 +58,7 @@
         "a": "Зависи от m² и сложността на фасадата — уточнява се в офертата."
       }
     ],
-    "image": "/assets/images/services/pvc-dograma.jpg"
+    "image": "/assets/images/heroes/facade-scaffolding-perspective.webp"
   },
   {
     "slug": "mobilno-skele",
@@ -119,7 +119,7 @@
         "a": "Обикновено от няколко дни — според типа и наличността."
       }
     ],
-    "image": "/assets/images/services/aluminiumieva-dograma.jpg"
+    "image": "/assets/images/services/mobile-aluminium-tower.webp"
   },
   {
     "slug": "modulno-skele",
@@ -180,7 +180,7 @@
         "a": "Да — често се ползва и за временни работни платформи и укрепвания."
       }
     ],
-    "image": "/assets/images/services/vrati.png"
+    "image": "/assets/images/services/modular-ringlock-detail.webp"
   },
   {
     "slug": "ramkovo-skele",
@@ -241,7 +241,7 @@
         "a": "Екипът се оразмерява според обема и срока."
       }
     ],
-    "image": "/assets/images/services/plazgashti-sistemi.jpg"
+    "image": "/assets/images/services/frame-scaffolding-facade.webp"
   },
   {
     "slug": "obemno-skele",
@@ -302,7 +302,7 @@
         "a": "По обем, височина, срок и сложност на монтажа."
       }
     ],
-    "image": "/assets/images/services/shtori.jpg"
+    "image": "/assets/images/heroes/industrial-scaffolding-grid.webp"
   },
   {
     "slug": "vatreshni-remonti",
@@ -363,7 +363,7 @@
         "a": "Възможно е при наличност — уточнява се предварително."
       }
     ],
-    "image": "/assets/images/services/komarnitsi.jpg"
+    "image": "/assets/images/services/interior-renovation-scaffolding.webp"
   },
   {
     "slug": "promishleni-obekti",
@@ -424,7 +424,7 @@
         "a": "Да — за планови ремонти и годишна поддръжка."
       }
     ],
-    "image": "/assets/images/services/dush-kabini.jpg"
+    "image": "/assets/images/services/warehouse-access-tower.webp"
   },
   {
     "slug": "pokrivni-raboti",
@@ -485,7 +485,7 @@
         "a": "Да — транспортът се калкулира според разстоянието."
       }
     ],
-    "image": "/assets/images/services/aluminiumievi-navesi.jpg"
+    "image": "/assets/images/services/roof-access-scaffolding.webp"
   },
   {
     "slug": "restavratsiya",
@@ -546,7 +546,7 @@
         "a": "При нужда добавяме защитни покрития над работните зони."
       }
     ],
-    "image": "/assets/images/services/zimni-gradini.webp"
+    "image": "/assets/images/services/historic-facade-scaffolding.webp"
   },
   {
     "slug": "kombinarani-konfiguratsii",
@@ -607,7 +607,7 @@
         "a": "Доставките се разпределят по етапи, за да не се претоварва площадката."
       }
     ],
-    "image": "/assets/images/services/obrashtane-s-pvc-profili.webp"
+    "image": "/assets/images/services/curved-restoration-scaffolding.webp"
   },
   {
     "slug": "montazh-i-demontazh",
@@ -668,7 +668,7 @@
         "a": "Препоръчително е — за достъп, координация и приемане."
       }
     ],
-    "image": "/assets/images/services/pvc-dograma.jpg"
+    "image": "/assets/images/sections/scaffold-installation-team.webp"
   },
   {
     "slug": "transport-i-logistika",
@@ -729,6 +729,6 @@
         "a": "Обикновено е отделен ред в офертата, освен ако не е договорен пакет."
       }
     ],
-    "image": "/assets/images/services/aluminiumieva-dograma.jpg"
+    "image": "/assets/images/services/site-delivery-truck.webp"
   }
 ]

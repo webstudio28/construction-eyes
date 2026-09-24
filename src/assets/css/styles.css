@@ -1878,6 +1878,11 @@ body.menu-open,
   --tw-gradient-stops: var(--tw-gradient-from), rgb(63 180 73 / 0.4) var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
+.via-black\/80 {
+  --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 0.8) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
 .to-\[\#121516\] {
   --tw-gradient-to: #121516 var(--tw-gradient-to-position);
 }
@@ -1908,6 +1913,10 @@ body.menu-open,
 
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
+.to-brand-deeper\/85 {
+  --tw-gradient-to: rgb(18 21 22 / 0.85) var(--tw-gradient-to-position);
 }
 
 .bg-cover {

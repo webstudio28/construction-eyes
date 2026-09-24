@@ -11,7 +11,7 @@
       "Дръжте работните площадки чисти"
     ],
     "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=80"
+    "image": "/assets/images/sections/scaffold-installation-team.webp"
   },
   {
     "slug": "demontazh-na-skele",
@@ -25,7 +25,7 @@
       "Подреждайте елементите за по-бързо товарене"
     ],
     "videoUrl": "https://www.youtube.com/watch?v=oHg5SJYRHA0",
-    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=900&q=80"
+    "image": "/assets/images/sections/scaffold-platform-detail.webp"
   },
   {
     "slug": "ukrepvane-na-skele",
@@ -39,7 +39,7 @@
       "Не претоварвайте платформите"
     ],
     "videoUrl": "https://www.youtube.com/watch?v=9bZkp7q19f0",
-    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=900&q=80"
+    "image": "/assets/images/services/modular-ringlock-detail.webp"
   },
   {
     "slug": "mobilno-skele-na-praktika",
@@ -53,7 +53,7 @@
       "Ползвайте стабилизатори при по-голяма височина"
     ],
     "videoUrl": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
-    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900&q=80"
+    "image": "/assets/images/services/mobile-aluminium-tower.webp"
   },
   {
     "slug": "transport-na-skele",
@@ -67,7 +67,7 @@
       "Планирайте етапни доставки при големи обекти"
     ],
     "videoUrl": "https://www.youtube.com/watch?v=3JZ_D3ELwOQ",
-    "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900&q=80"
+    "image": "/assets/images/services/site-delivery-truck.webp"
   },
   {
     "slug": "realen-obekt-fasada",
@@ -81,7 +81,7 @@
       "Редовната проверка поддържа безопасността"
     ],
     "videoUrl": "https://www.youtube.com/watch?v=kJQP7kiw5Fk",
-    "image": "https://images.unsplash.com/photo-1541976590-713941681591?w=900&q=80"
+    "image": "/assets/images/heroes/facade-scaffolding-perspective.webp"
   },
   {
     "slug": "kombinarani-konfiguratsii-video",
@@ -95,6 +95,6 @@
       "Планирайте етапен демонтаж още в началото"
     ],
     "videoUrl": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ",
-    "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=900&q=80"
+    "image": "/assets/images/services/curved-restoration-scaffolding.webp"
   }
 ]

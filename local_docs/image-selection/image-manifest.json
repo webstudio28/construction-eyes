@@ -1,0 +1,1045 @@
+{
+  "project": "construction eyes",
+  "date": "2026-09-23",
+  "status": "Curated and downloaded; not wired into live templates",
+  "assets": [
+    {
+      "project": "construction eyes",
+      "id": "hero",
+      "path": "heroes/facade-scaffolding-perspective.webp",
+      "photo": "5511087",
+      "source": "https://www.pexels.com/photo/a-building-in-a-city-being-restored-5511087/",
+      "author": "Mike van Schoonderwalt",
+      "title": "Facade scaffold / primary hero",
+      "alt": "Многоетажно фасадно скеле с работни площадки покрай сграда.",
+      "note": "Primary home hero, facade service and school-facade illustrative context. Strong depth and clearly visible platforms. Retain dark text overlay.",
+      "focalPoint": "55% 50%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/5511087/pexels-photo-5511087.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1600
+      ],
+      "width": 2400,
+      "height": 1600,
+      "bytes": 669328,
+      "sha256": "20f6ecc68acea932332db49ad4d09679d292c01b79c4a8268cb22dfca5953e98",
+      "url": "/assets/images/heroes/facade-scaffolding-perspective.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "industrial-hero",
+      "path": "heroes/industrial-scaffolding-grid.webp",
+      "photo": "10930246",
+      "source": "https://www.pexels.com/photo/building-construction-wall-architecture-10930246/",
+      "author": "Dylan Leagh",
+      "title": "Industrial scaffold / alternate hero",
+      "alt": "Мащабна конструкция от скеле с множество работни нива.",
+      "note": "Wide structural pattern for hero, volume-scaffold service or industrial banners. Reference example, not proof of a specific system certification.",
+      "focalPoint": "50% 50%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/10930246/pexels-photo-10930246.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1652
+      ],
+      "width": 2400,
+      "height": 1652,
+      "bytes": 1298324,
+      "sha256": "1662826588cc0e0f40a9dd676acc6a29efbf1743e58729ba1bba71084d0bc73c",
+      "url": "/assets/images/heroes/industrial-scaffolding-grid.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "modular",
+      "path": "services/modular-ringlock-detail.webp",
+      "photo": "16917192",
+      "source": "https://www.pexels.com/photo/close-up-of-a-steel-construction-16917192/",
+      "author": "Milo Deckert",
+      "title": "Modular connections",
+      "alt": "Връзки и диагонали на модулно метално скеле.",
+      "note": "Visible ringlock nodes make this more specific than a generic construction scene. Best as 4:3 card or detail inset; portrait original.",
+      "focalPoint": "50% 45%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/16917192/pexels-photo-16917192.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 56494,
+      "sha256": "e4540365905535b958ba3ee4fab5f07a56c206d5ec1f2ab833b192ddcb78771a",
+      "url": "/assets/images/services/modular-ringlock-detail.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "frame",
+      "path": "services/frame-scaffolding-facade.webp",
+      "photo": "31569140",
+      "source": "https://www.pexels.com/photo/scaffolding-on-renovated-historical-building-31569140/",
+      "author": "CK Seng",
+      "title": "Frame scaffold",
+      "alt": "Рамково скеле при ремонт на фасада с магазини на партерно ниво.",
+      "note": "Landscape view makes the frame bays readable. Also useful for urban commercial renovation illustration, not an actual Varna mall.",
+      "focalPoint": "50% 62%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/31569140/pexels-photo-31569140.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1800
+      ],
+      "width": 2000,
+      "height": 1500,
+      "bytes": 491474,
+      "sha256": "78ab1b8ee984f9420bc392e47446a0bd040fd93717e37e5cc140cc81c2364a1b",
+      "url": "/assets/images/services/frame-scaffolding-facade.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "interior",
+      "path": "services/interior-renovation-scaffolding.webp",
+      "photo": "6474313",
+      "source": "https://www.pexels.com/photo/wooden-materials-in-a-room-6474313/",
+      "author": "Tima Miroshnichenko",
+      "title": "Interior renovation",
+      "alt": "Работно скеле под таван от гипсокартон във вътрешен ремонт.",
+      "note": "Shows real scaffold use inside a room. Keep the lower scaffold in the crop, not just the ceiling.",
+      "focalPoint": "55% 70%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/6474313/pexels-photo-6474313.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 251074,
+      "sha256": "0949fc6d362c5594ac652177e293cddcf7352b14ebfeb572e21e460f9b160cc0",
+      "url": "/assets/images/services/interior-renovation-scaffolding.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "warehouse",
+      "path": "services/warehouse-access-tower.webp",
+      "photo": "36519089",
+      "source": "https://www.pexels.com/photo/industrial-scaffolding-in-a-minimalist-warehouse-36519089/",
+      "author": "Peter Dyllong",
+      "title": "Industrial indoor access",
+      "alt": "Работна кула от скеле във високо промишлено помещение.",
+      "note": "Clean monochrome industrial interior. Suitable for industrial service and warehouse illustration; this is an access tower, not a birdcage scaffold.",
+      "focalPoint": "64% 53%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/36519089/pexels-photo-36519089.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 198732,
+      "sha256": "5c8e81f62df8b0b56bcd5fb4efe13020470d3566cb2d39e17e92b9174c66aca8",
+      "url": "/assets/images/services/warehouse-access-tower.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "roof",
+      "path": "services/roof-access-scaffolding.webp",
+      "photo": "12243107",
+      "source": "https://www.pexels.com/photo/roofing-works-at-detached-family-house-12243107/",
+      "author": "Robert So",
+      "title": "Roof access",
+      "alt": "Скеле около двуетажна къща при ремонт на покрива.",
+      "note": "Very clear residential roof-work context with full scaffold elevation. Strong service card and roof-project illustration.",
+      "focalPoint": "50% 45%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/12243107/pexels-photo-12243107.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1569
+      ],
+      "width": 2000,
+      "height": 1308,
+      "bytes": 481204,
+      "sha256": "792fb66afd748401f1a24cd2888d5353eb30ecf3fe72012cdebdaf674f929b7b",
+      "url": "/assets/images/services/roof-access-scaffolding.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "restoration",
+      "path": "services/historic-facade-scaffolding.webp",
+      "photo": "9784173",
+      "source": "https://www.pexels.com/photo/scaffolding-installed-on-renovated-wall-of-old-building-9784173/",
+      "author": "Mathias Reding",
+      "title": "Facade restoration",
+      "alt": "Скеле при реставрация на историческа градска фасада.",
+      "note": "European building context; retain scaffold on the left. Paris stock photo, not a photographed Bulgarian commission.",
+      "focalPoint": "33% 50%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/9784173/pexels-photo-9784173.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 544694,
+      "sha256": "9aa8fcd000e1ed2820d877fc9ba90124b465ffcee6941221408373172fbc2047",
+      "url": "/assets/images/services/historic-facade-scaffolding.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "combined",
+      "path": "services/curved-restoration-scaffolding.webp",
+      "photo": "33130165",
+      "source": "https://www.pexels.com/photo/historic-building-restoration-under-clear-blue-sky-33130165/",
+      "author": "Burak Ensar BAL",
+      "title": "Complex facade geometry",
+      "alt": "Скеле около извита историческа фасада и кула.",
+      "note": "Shows adaptation around curved architecture. Combined-configuration visual, not a technical identification of every scaffold component.",
+      "focalPoint": "50% 58%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/33130165/pexels-photo-33130165.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 467842,
+      "sha256": "55dcf6f8481a5d75d766e61686c0a6fea903fb44582d7a0e940c56796ddedbaa",
+      "url": "/assets/images/services/curved-restoration-scaffolding.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "installation",
+      "path": "sections/scaffold-installation-team.webp",
+      "photo": "33719014",
+      "source": "https://www.pexels.com/photo/urban-construction-site-with-scaffolding-33719014/",
+      "author": "Andrew Patrick Photo",
+      "title": "Installation work",
+      "alt": "Строителни работници с каски върху скеле до фасада.",
+      "note": "About section and installation/dismantling service. This depicts work on scaffolding; it does not prove a specific assembly or dismantling step.",
+      "focalPoint": "65% 60%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/33719014/pexels-photo-33719014.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1600
+      ],
+      "width": 2000,
+      "height": 1333,
+      "bytes": 708000,
+      "sha256": "ff380dafdb26225855db6533a5feb22d0870e48b0d1f4b42f9df7aabb93fc094",
+      "url": "/assets/images/sections/scaffold-installation-team.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "platforms",
+      "path": "sections/scaffold-platform-detail.webp",
+      "photo": "10930248",
+      "source": "https://www.pexels.com/photo/scaffoldings-and-metal-platforms-10930248/",
+      "author": "Dylan Leagh",
+      "title": "Platform structure",
+      "alt": "Поглед отгоре към метални платформи и носещи елементи на скеле.",
+      "note": "Process background, equipment detail and image for choosing scaffold types. Strong repeating steel texture.",
+      "focalPoint": "50% 50%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/10930248/pexels-photo-10930248.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1600
+      ],
+      "width": 2000,
+      "height": 1333,
+      "bytes": 867500,
+      "sha256": "1c769e81d819a36abc92e525da2c7875b4719b0aba733903c058142896fade7a",
+      "url": "/assets/images/sections/scaffold-platform-detail.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "mesh",
+      "path": "projects/illustrative-residential-facade.webp",
+      "photo": "37028150",
+      "source": "https://www.pexels.com/photo/urban-construction-site-with-green-scaffold-detail-37028150/",
+      "author": "Peter Dyllong",
+      "title": "Residential facade renovation",
+      "alt": "Сграда в ремонт, обхваната от скеле и зелена защитна мрежа.",
+      "note": "Illustration for residential facade renewal. Not the Sofia project and not necessarily an eight-storey block.",
+      "focalPoint": "50% 50%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/37028150/pexels-photo-37028150.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1600
+      ],
+      "width": 2000,
+      "height": 1333,
+      "bytes": 444194,
+      "sha256": "6241bc3b34baa6f44f92b4d261afe6d0e8017c894ba8a2c4a27cf3e284953c99",
+      "url": "/assets/images/projects/illustrative-residential-facade.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "church",
+      "path": "projects/illustrative-church-restoration.webp",
+      "photo": "11640154",
+      "source": "https://www.pexels.com/photo/scaffolding-inside-a-church-11640154/",
+      "author": "Mehmet Turgut Kirkgoz",
+      "title": "Church restoration",
+      "alt": "Скеле за реставрация във вътрешността на църква.",
+      "note": "Direct church-restoration context. Illustrative stock; not the named Veliko Tarnovo church or its actual scaffold installation.",
+      "focalPoint": "61% 50%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/11640154/pexels-photo-11640154.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1600
+      ],
+      "width": 2000,
+      "height": 1333,
+      "bytes": 267958,
+      "sha256": "3ea8b8958d50fd756473424c963cc36d76857e7dc80b7624096d38d9726dd5d8",
+      "url": "/assets/images/projects/illustrative-church-restoration.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "commercial",
+      "path": "projects/illustrative-commercial-facade.webp",
+      "photo": "14143739",
+      "source": "https://www.pexels.com/photo/scaffolding-beside-a-high-rise-building-14143739/",
+      "author": "Павел Хлыстунов",
+      "title": "Commercial facade access",
+      "alt": "Метално скеле пред модерна фасада със стъклени панели.",
+      "note": "Good commercial-building access image. Not the Varna shopping centre; useful as a representative configuration.",
+      "focalPoint": "48% 50%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/14143739/pexels-photo-14143739.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1602
+      ],
+      "width": 2000,
+      "height": 1335,
+      "bytes": 375346,
+      "sha256": "6b00547f3cc1266763eb3f4befab361f0a5dbd22d99650c7cdc2021c06f10007",
+      "url": "/assets/images/projects/illustrative-commercial-facade.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "bridge",
+      "path": "projects/illustrative-bridge-maintenance.webp",
+      "photo": "30475862",
+      "source": "https://www.pexels.com/photo/historic-stone-bridge-under-renovation-in-autumn-30475862/",
+      "author": "✰ Saul Bandera Brotheridge",
+      "title": "Bridge maintenance",
+      "alt": "Скеле около каменен мост по време на ремонт.",
+      "note": "Clearly visible scaffold below a bridge. Scotland stock photo, not the Pleven project.",
+      "focalPoint": "50% 52%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/30475862/pexels-photo-30475862.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        1600
+      ],
+      "width": 2000,
+      "height": 1333,
+      "bytes": 600868,
+      "sha256": "7891850341f7ca87f92785dd25c998492a576e4f72c2a3be00943aa4303df967",
+      "url": "/assets/images/projects/illustrative-bridge-maintenance.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "bridge-detail",
+      "path": "projects/illustrative-bridge-scaffold-detail.webp",
+      "photo": "37077374",
+      "source": "https://www.pexels.com/photo/black-and-white-construction-site-with-scaffolding-37077374/",
+      "author": "Peter Dyllong",
+      "title": "Bridge scaffold detail",
+      "alt": "Конструкция от скеле под мост в процес на строителни работи.",
+      "note": "Monochrome structural detail; companion bridge-gallery illustration from a different site, not a second view of the same bridge.",
+      "focalPoint": "59% 55%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/37077374/pexels-photo-37077374.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 548592,
+      "sha256": "19b9735f281a670f4bfbaab6b1aee6566282e2698ef9de70cc3536d791fa18ad",
+      "url": "/assets/images/projects/illustrative-bridge-scaffold-detail.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "urban",
+      "path": "projects/illustrative-urban-renovation.webp",
+      "photo": "31609213",
+      "source": "https://www.pexels.com/photo/urban-construction-scene-with-scaffolding-31609213/",
+      "author": "Nikolai Lapshin",
+      "title": "Urban facade renovation",
+      "alt": "Скеле на няколко нива пред фасада в градска среда.",
+      "note": "Secondary gallery context for urban projects. Visible storefront lettering; not a hotel or school identification.",
+      "focalPoint": "50% 43%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/31609213/pexels-photo-31609213.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3188
+      ],
+      "width": 1506,
+      "height": 2000,
+      "bytes": 584608,
+      "sha256": "b9c35a1843f87e60680878705a0cad91f1c8d7f2a86ce11fd7af371474f5ed04",
+      "url": "/assets/images/projects/illustrative-urban-renovation.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "safety-net",
+      "path": "projects/illustrative-commercial-safety-net.webp",
+      "photo": "28449563",
+      "source": "https://www.pexels.com/photo/urban-street-scene-with-building-renovation-28449563/",
+      "author": "Noland Live",
+      "title": "Street-level protection",
+      "alt": "Защитна мрежа около фасаден ремонт на градска улица.",
+      "note": "Shows pedestrian-facing perimeter protection. Supporting contextual image for hotel/commercial renovation; not a completed-project photograph.",
+      "focalPoint": "50% 55%",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "creditRequired": false,
+      "download": "https://images.pexels.com/photos/28449563/pexels-photo-28449563.jpeg?auto=compress&cs=tinysrgb&w=2400&q=90",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 696678,
+      "sha256": "882a5fa5ad5406ca59c3f2346af8e6a02bd7cda38e98e15a14dd09297e849632",
+      "url": "/assets/images/projects/illustrative-commercial-safety-net.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "mobile",
+      "path": "services/mobile-aluminium-tower.webp",
+      "source": "https://commons.wikimedia.org/wiki/File:Subscription_Rooms_auditorium_mobile_Scaffold_Tower_Stroud_Gloucestershire_England_01.jpg",
+      "author": "Acabashi",
+      "title": "Mobile aluminium tower",
+      "alt": "Алуминиева мобилна кула във високо вътрешно помещение.",
+      "note": "Complete rolling tower in an auditorium. Use portrait or object-fit:contain to retain the tower; do not crop away all its base. Credit must accompany publication. Not a photo of the Plovdiv apartment.",
+      "focalPoint": "50% 50%",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "creditRequired": true,
+      "download": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Subscription_Rooms_auditorium_mobile_Scaffold_Tower_Stroud_Gloucestershire_England_01.jpg",
+      "downloadedDimensions": [
+        2808,
+        3744
+      ],
+      "width": 1500,
+      "height": 2000,
+      "bytes": 535918,
+      "sha256": "c6e2472ff1f40fe87ddf0629d8a49f1ff9e442066406021cac57e406922c1ac3",
+      "url": "/assets/images/services/mobile-aluminium-tower.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    },
+    {
+      "project": "construction eyes",
+      "id": "logistics",
+      "path": "services/site-delivery-truck.webp",
+      "source": "https://unsplash.com/photos/yellow-truck-parked-near-construction-site-scaffolding-Y8SRI9r9yGQ",
+      "author": "Denis (@denis96)",
+      "title": "Site delivery / logistics",
+      "alt": "Товарен автомобил до строителен обект с монтирано скеле.",
+      "note": "Truck and scaffold in one frame: site access and delivery context. The load is not visible, so do not claim it shows a scaffold delivery. Malta stock setting; actual branded fleet photography would be stronger.",
+      "focalPoint": "52% 63%",
+      "license": "Unsplash License",
+      "licenseUrl": "https://unsplash.com/license",
+      "creditRequired": false,
+      "download": "https://images.unsplash.com/photo-1765717790321-e452fd7fd329?auto=format&fit=max&fm=jpg&q=90&w=2400",
+      "downloadedDimensions": [
+        2400,
+        3600
+      ],
+      "width": 1333,
+      "height": 2000,
+      "bytes": 386356,
+      "sha256": "dc2d6071114239ca78b0b735c535c841e84e58680dc1ae17094dca54ede198cd",
+      "url": "/assets/images/services/site-delivery-truck.webp",
+      "retrieved": "2026-09-23",
+      "changes": "Proportional resize and WebP compression only; original composition and colors retained."
+    }
+  ],
+  "placements": [
+    {
+      "kind": "Sections",
+      "title": "Home hero",
+      "slot": "src/_includes/sections/home-hero.njk",
+      "images": [
+        "/assets/images/heroes/facade-scaffolding-perspective.webp",
+        "/assets/images/heroes/industrial-scaffolding-grid.webp"
+      ],
+      "assetIds": [
+        "hero",
+        "industrial-hero"
+      ],
+      "note": "First image is the primary choice; any second image is an alternative."
+    },
+    {
+      "kind": "Sections",
+      "title": "Home about main",
+      "slot": "src/_includes/sections/home-about.njk",
+      "images": [
+        "/assets/images/sections/scaffold-installation-team.webp"
+      ],
+      "assetIds": [
+        "installation"
+      ],
+      "note": "First image is the primary choice; any second image is an alternative."
+    },
+    {
+      "kind": "Sections",
+      "title": "Home about detail",
+      "slot": "src/_includes/sections/home-about.njk",
+      "images": [
+        "/assets/images/services/modular-ringlock-detail.webp"
+      ],
+      "assetIds": [
+        "modular"
+      ],
+      "note": "First image is the primary choice; any second image is an alternative."
+    },
+    {
+      "kind": "Sections",
+      "title": "Process background",
+      "slot": "src/_includes/sections/home-process.njk",
+      "images": [
+        "/assets/images/sections/scaffold-platform-detail.webp"
+      ],
+      "assetIds": [
+        "platforms"
+      ],
+      "note": "First image is the primary choice; any second image is an alternative."
+    },
+    {
+      "kind": "Sections",
+      "title": "Interior page banner",
+      "slot": "src/_includes/macros/page-banner.njk",
+      "images": [
+        "/assets/images/heroes/industrial-scaffolding-grid.webp"
+      ],
+      "assetIds": [
+        "industrial-hero"
+      ],
+      "note": "First image is the primary choice; any second image is an alternative."
+    },
+    {
+      "kind": "Services",
+      "title": "Фасадно скеле",
+      "slot": "src/_data/services.json → fasadno-skele → image",
+      "images": [
+        "/assets/images/heroes/facade-scaffolding-perspective.webp",
+        "/assets/images/sections/scaffold-platform-detail.webp"
+      ],
+      "assetIds": [
+        "hero",
+        "platforms"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Мобилно скеле",
+      "slot": "src/_data/services.json → mobilno-skele → image",
+      "images": [
+        "/assets/images/services/mobile-aluminium-tower.webp",
+        "/assets/images/services/warehouse-access-tower.webp"
+      ],
+      "assetIds": [
+        "mobile",
+        "warehouse"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Модулно скеле",
+      "slot": "src/_data/services.json → modulno-skele → image",
+      "images": [
+        "/assets/images/services/modular-ringlock-detail.webp",
+        "/assets/images/heroes/industrial-scaffolding-grid.webp"
+      ],
+      "assetIds": [
+        "modular",
+        "industrial-hero"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Рамково скеле",
+      "slot": "src/_data/services.json → ramkovo-skele → image",
+      "images": [
+        "/assets/images/services/frame-scaffolding-facade.webp",
+        "/assets/images/heroes/facade-scaffolding-perspective.webp"
+      ],
+      "assetIds": [
+        "frame",
+        "hero"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Обемно скеле",
+      "slot": "src/_data/services.json → obemno-skele → image",
+      "images": [
+        "/assets/images/heroes/industrial-scaffolding-grid.webp",
+        "/assets/images/sections/scaffold-platform-detail.webp"
+      ],
+      "assetIds": [
+        "industrial-hero",
+        "platforms"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Скеле за вътрешни ремонти",
+      "slot": "src/_data/services.json → vatreshni-remonti → image",
+      "images": [
+        "/assets/images/services/interior-renovation-scaffolding.webp",
+        "/assets/images/services/mobile-aluminium-tower.webp"
+      ],
+      "assetIds": [
+        "interior",
+        "mobile"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Скеле за промишлени обекти",
+      "slot": "src/_data/services.json → promishleni-obekti → image",
+      "images": [
+        "/assets/images/services/warehouse-access-tower.webp",
+        "/assets/images/heroes/industrial-scaffolding-grid.webp"
+      ],
+      "assetIds": [
+        "warehouse",
+        "industrial-hero"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Скеле за покривни работи",
+      "slot": "src/_data/services.json → pokrivni-raboti → image",
+      "images": [
+        "/assets/images/services/roof-access-scaffolding.webp"
+      ],
+      "assetIds": [
+        "roof"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Скеле за реставрация",
+      "slot": "src/_data/services.json → restavratsiya → image",
+      "images": [
+        "/assets/images/services/historic-facade-scaffolding.webp",
+        "/assets/images/projects/illustrative-church-restoration.webp"
+      ],
+      "assetIds": [
+        "restoration",
+        "church"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Комбинирани конфигурации",
+      "slot": "src/_data/services.json → kombinarani-konfiguratsii → image",
+      "images": [
+        "/assets/images/services/curved-restoration-scaffolding.webp",
+        "/assets/images/projects/illustrative-commercial-facade.webp"
+      ],
+      "assetIds": [
+        "combined",
+        "commercial"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Монтаж и демонтаж",
+      "slot": "src/_data/services.json → montazh-i-demontazh → image",
+      "images": [
+        "/assets/images/sections/scaffold-installation-team.webp",
+        "/assets/images/services/modular-ringlock-detail.webp"
+      ],
+      "assetIds": [
+        "installation",
+        "modular"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Services",
+      "title": "Транспорт и логистика",
+      "slot": "src/_data/services.json → transport-i-logistika → image",
+      "images": [
+        "/assets/images/services/site-delivery-truck.webp"
+      ],
+      "assetIds": [
+        "logistics"
+      ],
+      "note": "First choice replaces the shared card/detail/navigation image. Additional choices are optional service-section images."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Фасадно скеле за саниране на блок в София",
+      "slot": "src/_data/projects.json → fasadno-sanirane-sofija → images",
+      "images": [
+        "/assets/images/projects/illustrative-residential-facade.webp",
+        "/assets/images/heroes/facade-scaffolding-perspective.webp"
+      ],
+      "assetIds": [
+        "mesh",
+        "hero"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Мобилно скеле за вътрешен ремонт в Пловдив",
+      "slot": "src/_data/projects.json → apartament-remont-plovdiv → images",
+      "images": [
+        "/assets/images/services/interior-renovation-scaffolding.webp",
+        "/assets/images/services/mobile-aluminium-tower.webp"
+      ],
+      "assetIds": [
+        "interior",
+        "mobile"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Модулно скеле за промишлено хале край Бургас",
+      "slot": "src/_data/projects.json → promishleno-hale-burgas → images",
+      "images": [
+        "/assets/images/heroes/industrial-scaffolding-grid.webp",
+        "/assets/images/services/modular-ringlock-detail.webp"
+      ],
+      "assetIds": [
+        "industrial-hero",
+        "modular"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Скеле за реставрация на църква във Велико Търново",
+      "slot": "src/_data/projects.json → tsarkva-restavratsiya-veliko-tarnovo → images",
+      "images": [
+        "/assets/images/projects/illustrative-church-restoration.webp",
+        "/assets/images/services/historic-facade-scaffolding.webp"
+      ],
+      "assetIds": [
+        "church",
+        "restoration"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Комбинирано скеле за търговски център във Варна",
+      "slot": "src/_data/projects.json → targovski-tsentar-varna → images",
+      "images": [
+        "/assets/images/projects/illustrative-commercial-facade.webp",
+        "/assets/images/services/frame-scaffolding-facade.webp"
+      ],
+      "assetIds": [
+        "commercial",
+        "frame"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Скеле за покривен ремонт на къща в Благоевград",
+      "slot": "src/_data/projects.json → pokriv-kashta-blagoevgrad → images",
+      "images": [
+        "/assets/images/services/roof-access-scaffolding.webp",
+        "/assets/images/services/modular-ringlock-detail.webp"
+      ],
+      "assetIds": [
+        "roof",
+        "modular"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Фасадно скеле за хотел в Несебър",
+      "slot": "src/_data/projects.json → hotel-fasada-nesebar → images",
+      "images": [
+        "/assets/images/services/historic-facade-scaffolding.webp",
+        "/assets/images/projects/illustrative-commercial-safety-net.webp"
+      ],
+      "assetIds": [
+        "restoration",
+        "safety-net"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Обемно и рамково скеле за склад в Русе",
+      "slot": "src/_data/projects.json → sklad-ruse → images",
+      "images": [
+        "/assets/images/services/warehouse-access-tower.webp",
+        "/assets/images/sections/scaffold-platform-detail.webp"
+      ],
+      "assetIds": [
+        "warehouse",
+        "platforms"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Скеле за ремонт на училище в Стара Загора",
+      "slot": "src/_data/projects.json → uchilishte-stara-zagora → images",
+      "images": [
+        "/assets/images/heroes/facade-scaffolding-perspective.webp",
+        "/assets/images/projects/illustrative-residential-facade.webp"
+      ],
+      "assetIds": [
+        "hero",
+        "mesh"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Project illustrations",
+      "title": "Скеле за поддръжка на мостова конструкция край Плевен",
+      "slot": "src/_data/projects.json → most-poddarzhka-pleven → images",
+      "images": [
+        "/assets/images/projects/illustrative-bridge-maintenance.webp",
+        "/assets/images/projects/illustrative-bridge-scaffold-detail.webp"
+      ],
+      "assetIds": [
+        "bridge",
+        "bridge-detail"
+      ],
+      "note": "ILLUSTRATIVE ONLY. These are unrelated stock locations, not photographs of this named project. Before connecting them, change the gallery claims about real job photographs, or replace with client-supplied originals. Separate photos do not document one site."
+    },
+    {
+      "kind": "Blog",
+      "title": "Как да изберете тип скеле за вашия обект",
+      "slot": "src/_data/blog.json → kak-da-izberete-tip-skele → image",
+      "images": [
+        "/assets/images/sections/scaffold-platform-detail.webp"
+      ],
+      "assetIds": [
+        "platforms"
+      ],
+      "note": ""
+    },
+    {
+      "kind": "Blog",
+      "title": "Безопасност при работа на височина със скеле",
+      "slot": "src/_data/blog.json → bezopasnost-pri-rabota-na-visochina → image",
+      "images": [
+        "/assets/images/services/modular-ringlock-detail.webp"
+      ],
+      "assetIds": [
+        "modular"
+      ],
+      "note": ""
+    },
+    {
+      "kind": "Blog",
+      "title": "Какво влияе на цената за наем на скеле",
+      "slot": "src/_data/blog.json → kakvo-vliyae-na-cenata-na-naema → image",
+      "images": [
+        "/assets/images/projects/illustrative-residential-facade.webp"
+      ],
+      "assetIds": [
+        "mesh"
+      ],
+      "note": ""
+    },
+    {
+      "kind": "Blog",
+      "title": "Как да планирате логистиката на скелето",
+      "slot": "src/_data/blog.json → planirane-na-logistikata-za-obekta → image",
+      "images": [
+        "/assets/images/services/site-delivery-truck.webp"
+      ],
+      "assetIds": [
+        "logistics"
+      ],
+      "note": ""
+    },
+    {
+      "kind": "Video cover options",
+      "title": "Монтаж на фасадно скеле",
+      "slot": "src/_data/videos.json → montazh-na-fasadno-skele → image",
+      "images": [
+        "/assets/images/sections/scaffold-installation-team.webp"
+      ],
+      "assetIds": [
+        "installation"
+      ],
+      "note": "Illustrative cover only, not a frame from the video. Existing video URLs were not verified or replaced in this image-only pass."
+    },
+    {
+      "kind": "Video cover options",
+      "title": "Демонтаж на скеле",
+      "slot": "src/_data/videos.json → demontazh-na-skele → image",
+      "images": [
+        "/assets/images/sections/scaffold-platform-detail.webp"
+      ],
+      "assetIds": [
+        "platforms"
+      ],
+      "note": "Illustrative cover only, not a frame from the video. Existing video URLs were not verified or replaced in this image-only pass."
+    },
+    {
+      "kind": "Video cover options",
+      "title": "Укрепване на скеле",
+      "slot": "src/_data/videos.json → ukrepvane-na-skele → image",
+      "images": [
+        "/assets/images/services/modular-ringlock-detail.webp"
+      ],
+      "assetIds": [
+        "modular"
+      ],
+      "note": "Illustrative cover only, not a frame from the video. Existing video URLs were not verified or replaced in this image-only pass."
+    },
+    {
+      "kind": "Video cover options",
+      "title": "Мобилно скеле на практика",
+      "slot": "src/_data/videos.json → mobilno-skele-na-praktika → image",
+      "images": [
+        "/assets/images/services/mobile-aluminium-tower.webp"
+      ],
+      "assetIds": [
+        "mobile"
+      ],
+      "note": "Illustrative cover only, not a frame from the video. Existing video URLs were not verified or replaced in this image-only pass."
+    },
+    {
+      "kind": "Video cover options",
+      "title": "Транспорт на скеле",
+      "slot": "src/_data/videos.json → transport-na-skele → image",
+      "images": [
+        "/assets/images/services/site-delivery-truck.webp"
+      ],
+      "assetIds": [
+        "logistics"
+      ],
+      "note": "Illustrative cover only, not a frame from the video. Existing video URLs were not verified or replaced in this image-only pass."
+    },
+    {
+      "kind": "Video cover options",
+      "title": "Реален обект — фасаден ремонт",
+      "slot": "src/_data/videos.json → realen-obekt-fasada → image",
+      "images": [
+        "/assets/images/heroes/facade-scaffolding-perspective.webp"
+      ],
+      "assetIds": [
+        "hero"
+      ],
+      "note": "Illustrative cover only, not a frame from the video. Existing video URLs were not verified or replaced in this image-only pass."
+    },
+    {
+      "kind": "Video cover options",
+      "title": "Комбинирани конфигурации",
+      "slot": "src/_data/videos.json → kombinarani-konfiguratsii-video → image",
+      "images": [
+        "/assets/images/services/curved-restoration-scaffolding.webp"
+      ],
+      "assetIds": [
+        "combined"
+      ],
+      "note": "Illustrative cover only, not a frame from the video. Existing video URLs were not verified or replaced in this image-only pass."
+    }
+  ]
+}
